@@ -5,8 +5,8 @@ export function increment(num, account) {
   return {
     type: ACTION_INCREMENT,
     payload: {
-      ammount: num, 
-      account: account
+      amount: num, 
+      account
     }
   }
 }
